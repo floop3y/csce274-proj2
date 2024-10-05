@@ -1,0 +1,5 @@
+<launch>
+  <group ns="duckiebot">  <!-- Replace 'duckiebot' with your Duckiebot's actual namespace -->
+    <node pkg="square_path" type="move_square.py" name="move_square_node" output="screen" />
+  </group>
+</launch>
